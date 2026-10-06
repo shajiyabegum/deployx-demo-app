@@ -18,6 +18,6 @@ server = HTTPServer(
     Handler
 )
 
-print("DeployX app running on port 8000")
+print("DeployX app running on port 8000", flush=True)
 
 server.serve_forever()
